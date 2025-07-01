@@ -8,6 +8,7 @@ import uuid
 import random
 
 app = Flask(__name__)
+
 app.secret_key = 'veera123' # IMPORTANT: Change this to a strong, random key in production!
 
 # AWS Setup using IAM Role
